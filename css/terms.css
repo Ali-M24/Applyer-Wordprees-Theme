@@ -1,0 +1,134 @@
+body {
+  background-color: #fafafa;
+}
+
+.router {
+  padding: 24px;
+  background-color: #fafafa;
+}
+
+.TermsBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 43px 0;
+  padding-bottom: 128px;
+}
+.Terms-content {
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.Terms-content h2 {
+  color: #05474d;
+  font-family: IranSansB;
+  margin-bottom: 8px;
+}
+.Terms-content h3 {
+  margin-top: 48px;
+  font-size: 20px;
+  color: #1e818a;
+}
+.Terms-content span {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+  text-justify: auto;
+}
+.Footer {
+  background-color: #05474d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 72px;
+  padding-bottom: 32px;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* bottom: 0; */
+}
+.footer-conetnts {
+  width: 1280px;
+}
+
+.f-copy-right {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #cccccc;
+}
+.f-content {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding-bottom: 64px;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-left: 100px;
+}
+.f-menu-1 {
+  margin-left: 100px;
+}
+.f-menu-1 span {
+  font-family: IranSansB;
+  font-size: 18px;
+}
+.f-menu-1 ul {
+  margin-top: 15px;
+}
+.f-menu-2 {
+  margin-left: 100px;
+}
+.f-menu-1 ul li {
+  padding: 10px 0;
+}
+
+.f-menu-2 ul li {
+  padding: 10px 0;
+}
+
+.social-div span {
+  font-size: 18px;
+  font-family: IranSansB;
+}
+.social-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.social-icons-box {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-top: 36px;
+}
+
+.social-icon {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  border: 1px solid #ff732b;
+}
+.social-icon:hover {
+  background-color: #ff732b;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.icon {
+  color: #ffffff;
+  text-decoration: none;
+}

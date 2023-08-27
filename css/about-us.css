@@ -1,0 +1,264 @@
+.AboutBody {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About-content {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.about-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 0;
+}
+.about-left-side {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-right-side {
+  width: 100%;
+  text-align: justify;
+  text-justify: auto;
+}
+.about-right-side h2 {
+  font-size: 32px;
+  font-family: IranSansB;
+  margin-bottom: 24px;
+}
+
+.about-right-side span {
+  font-size: 18px;
+}
+.we-objective {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.objective-title {
+  margin-bottom: 48px;
+}
+
+.objective-title span {
+  font-size: 28px;
+  font-family: IranSansB;
+  margin-bottom: 64px;
+}
+
+.objective-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.objective-box {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  text-align: justify;
+  text-justify: auto;
+  padding: 52px 40px;
+  margin-left: 14px;
+}
+
+.o-box-title {
+  font-size: 24px;
+  font-family: IranSansB;
+  /* margin-bottom: 28px; */
+  margin-right: 12px;
+}
+
+.o-box-desc {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.apllyer-mentors {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 48px 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 92px;
+}
+.objective-head {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 24px;
+}
+.mentor-title {
+  font-size: 28px;
+  font-family: IranSansB;
+}
+.mentor-desc {
+  text-align: center;
+  width: 80%;
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+.mentor-sec {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.mentor-sec-img {
+  margin-left: 64px;
+}
+.mentor-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 24px;
+  font-weight: bold;
+}
+.mentor-name img {
+  margin-left: 24px;
+}
+.mentor-info {
+  margin-top: 16px;
+  line-height: 2;
+  text-align: justify;
+  text-justify: auto;
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 128px;
+}
+.mentor-profile {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  #AboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AboutBody {
+    width: 1184px;
+  }
+  .about-sec {
+    transform: scale(0.8);
+  }
+  .we-objective {
+    transform: scale(0.8);
+  }
+  .apllyer-mentors {
+    transform: scale(0.8);
+    margin: 0;
+  }
+  .Footer {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-sec,
+  .we-objective,
+  .apllyer-mentors {
+    transform: scale(0.9);
+  }
+  .apllyer-mentors {
+    margin-top: -64px;
+  }
+  .mentor-profile {
+    display: block;
+  }
+  .about-sec {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about-left-side img {
+    width: 50%;
+    margin-bottom: 48px;
+  }
+  .AboutBody {
+    width: 100vw;
+  }
+  .About-content {
+    width: 90%;
+  }
+  .objective-div {
+    flex-wrap: wrap;
+  }
+  .objective-box {
+    margin: 12px 0;
+    padding: 32px;
+  }
+  .apllyer-mentors {
+    width: 100%;
+    padding: 24px 0;
+    background-color: transparent;
+  }
+  .mentor-desc {
+    text-align: justify;
+    text-justify: auto;
+    width: 100%;
+  }
+  .mentor-sec-img {
+    display: none;
+  }
+
+  .mentor-info {
+    text-align: justify;
+    text-justify: auto;
+    line-height: 2.5;
+    text-align: right;
+    width: 100%;
+    font-size: 17px;
+  }
+  .mentor-header {
+    width: 100%;
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+  .mentor-profile {
+    width: 92px;
+    margin-left: 16px;
+    border-radius: 50%;
+  }
+  .mentor-name {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .mentor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    text-justify: auto;
+  }
+  .partners {
+    width: 100%;
+  }
+  .partners img {
+    width: 100%;
+  }
+}

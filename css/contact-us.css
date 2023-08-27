@@ -1,0 +1,206 @@
+@font-face {
+  font-family: IranSansR;
+  src: url("../fonts/IRSXR.woff");
+}
+@font-face {
+  font-family: IranSansB;
+  src: url("../fonts/IRSXB.woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: IranSansR;
+}
+button {
+  font-family: IranSansR;
+}
+
+body {
+  background-color: #fafafa;
+}
+#ContactUs {
+  position: relative;
+}
+.ContactBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content {
+  width: 1280px;
+  margin: 96px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-location {
+  border-radius: 15px;
+  /* height: px; */
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 30px;
+  margin-bottom: 64px;
+  overflow: hidden;
+}
+.location-box {
+  cursor: pointer;
+  font-size: 20px;
+  text-align: right;
+  background: #ffffff;
+  width: 360px;
+  height: 180px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.location-box:hover {
+  background: #e9f3f3;
+}
+.location-box-clicked {
+  background-color: #e9f3f3;
+}
+
+.haveBorder {
+  border-left: 1px solid #cccccc;
+}
+.location-title {
+  font-size: 20px;
+  font-family: IranSansB;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.location-adress {
+  font-size: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.location-phone {
+  font-size: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.location-email {
+  font-size: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+iframe {
+  width: 1280px;
+  height: 450px;
+  border-radius: 30px;
+}
+.loc-tabs {
+  display: none;
+}
+.tab-active {
+  background-color: #e9f3f3;
+  border-radius: 15px;
+}
+.location-tab {
+  padding: 16px 12px;
+}
+.responsive-location {
+  display: none;
+}
+#map-frame {
+  width: 100%;
+}
+@media (max-width: 1280px) {
+  #ContactUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  iframe {
+    width: 1184px;
+  }
+  .ContactBody {
+    width: 1184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-content {
+    width: 1184px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-location {
+    width: calc(100% - 24px);
+    overflow: hidden;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.8);
+  }
+  iframe {
+    transform: scale(0.8);
+  }
+  .location-box-div {
+    flex: 1;
+    width: calc(100% - 24px);
+    background-color: #ffffff;
+  }
+  .Footer {
+    width: 100vw;
+  }
+  .location-box {
+    padding: 36px 0;
+    width: 100%;
+    padding-right: 24px;
+  }
+  .location-adress {
+    width: 80%;
+  }
+}
+@media (max-width: 1024px) {
+  iframe {
+    width: 100%;
+    height: 360px;
+  }
+  .ContactBody {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-content {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  .contact-location {
+    display: none;
+  }
+  .loc-tabs {
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-bottom: 64px; */
+  }
+  .responsive-location {
+    display: block;
+    width: 80%;
+  }
+}
